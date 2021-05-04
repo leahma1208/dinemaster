@@ -1,0 +1,124 @@
+body,
+html {
+  margin: 0;
+}
+
+.holder {
+  font-family: "Lato", sans-serif;
+}
+
+/* ===============NAV BAR============ */
+.main-nav {
+  display: flex;
+  padding-top: 50px;
+  justify-content: space-between;
+  max-width: 90vw;
+  margin: auto;
+}
+
+.logo > img {
+  width: 350px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  min-width: 650px;
+}
+
+.nav > a {
+  text-decoration: none;
+  color: #222222;
+  font-size: 30px;
+}
+
+a:hover {
+  color: #727272;
+}
+/* ===========FIRST COL=================== */
+
+.col {
+  display: flex;
+}
+
+.intro {
+  max-width: 90vw;
+  margin: auto;
+  margin-top: 300px;
+  justify-content: space-between;
+}
+
+.head {
+  font-size: 60px;
+  color: #3a3a3a;
+  font-weight: 400;
+}
+.text {
+  font-size: 30px;
+  line-height: 40px;
+  color: #444444;
+  margin-top: 30px;
+  font-weight: 300;
+  max-width: 700px;
+}
+
+.vid {
+  margin-left: 100px;
+}
+
+/* ========PERSONAL============== */
+.personal {
+  margin-top: 150px;
+  justify-content: space-between;
+}
+
+.personal-img {
+  margin-right: 100px;
+}
+
+.per-cont {
+  margin: auto;
+  padding: 60px;
+}
+
+/* ========BUSINESS============== */
+.business {
+  margin-top: 100px;
+  justify-content: space-between;
+}
+
+/* ======DOWNLOAD============= */
+
+.download {
+  max-width: 90vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.down-cont {
+  margin-top: 250px;
+  text-align: center;
+}
+
+.bighead {
+  font-size: 100px;
+  font-weight: 700;
+  color: #3a3a3a;
+}
+
+.down-img {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.down-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.down-buttons > img {
+  padding: 10px;
+}
