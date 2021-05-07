@@ -171,14 +171,7 @@ input[type=submit]:hover {
 
 .submit{
   display: flex;
+  
   align-items: center;
   flex-direction: column;
-}
-/*========Copy========*/
-
-.copyright{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight:200px;
 }

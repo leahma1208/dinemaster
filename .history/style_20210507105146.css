@@ -177,8 +177,5 @@ input[type=submit]:hover {
 /*========Copy========*/
 
 .copyright{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight:200px;
+  display: ;
 }
