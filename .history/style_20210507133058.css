@@ -169,7 +169,7 @@ a:hover {
 .contact-cont {
   width: 75vw;
   margin: auto;
-  margin-top: 250px;
+  margin-top: 200px;
   margin-bottom: 200px;
 }
 input[type="text"],
@@ -219,9 +219,8 @@ input[type="submit"]:hover {
 }
 
 label {
-  margin-top: 30px;
-  margin-bottom: 10px;
-  font-size: 22px;
+  margin: 5px;
+  font-size: 20px;
 }
 
 .submit-button {

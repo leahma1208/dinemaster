@@ -96,12 +96,10 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 300px;
 }
 
 .down-cont {
   margin-top: 250px;
-
   text-align: center;
 }
 
@@ -144,7 +142,6 @@ a:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 200px;
 }
 
 .img1 {
@@ -168,15 +165,13 @@ a:hover {
 
 .contact-cont {
   width: 75vw;
-  margin: auto;
-  margin-top: 250px;
-  margin-bottom: 200px;
+  margin: autol;
 }
 input[type="text"],
 select,
 textarea {
   width: 100%;
-  padding: 20px;
+  padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
@@ -215,30 +210,9 @@ input[type="submit"]:hover {
 .submit {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
-
-label {
-  margin-top: 30px;
-  margin-bottom: 10px;
-  font-size: 22px;
-}
-
-.submit-button {
-  width: 20%;
-  height: 70px;
-  display: flex;
-  font-size: 20px;
-  padding: 100px;
-  justify-content: center;
-}
-
-.submit-bttn {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 40px;
-}
-
 /*========Copy========*/
 
 .copyright {

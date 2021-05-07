@@ -167,9 +167,9 @@ a:hover {
 /*==========Contact==============*/
 
 .contact-cont {
-  width: 75vw;
+  width: 80vw;
   margin: auto;
-  margin-top: 250px;
+  margin-top: 200px;
   margin-bottom: 200px;
 }
 input[type="text"],
@@ -215,30 +215,13 @@ input[type="submit"]:hover {
 .submit {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 
 label {
-  margin-top: 30px;
-  margin-bottom: 10px;
-  font-size: 22px;
+  float: left;
 }
-
-.submit-button {
-  width: 20%;
-  height: 70px;
-  display: flex;
-  font-size: 20px;
-  padding: 100px;
-  justify-content: center;
-}
-
-.submit-bttn {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 40px;
-}
-
 /*========Copy========*/
 
 .copyright {

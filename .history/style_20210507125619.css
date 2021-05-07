@@ -96,12 +96,10 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 300px;
 }
 
 .down-cont {
   margin-top: 250px;
-
   text-align: center;
 }
 
@@ -126,7 +124,10 @@ a:hover {
 }
 
 /* ======ABOUTUS============= */
-
+.head {
+  font-size: 100px;
+  font-weight: 700;
+}
 .dine {
   font-size: 40px;
   font-weight: 400;
@@ -137,14 +138,12 @@ a:hover {
 .members > h1 {
   font-size: 60px;
   font-weight: 400;
-  color: #3a3a3a;
 }
 .members {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 200px;
 }
 
 .img1 {
@@ -166,17 +165,11 @@ a:hover {
 
 /*==========Contact==============*/
 
-.contact-cont {
-  width: 75vw;
-  margin: auto;
-  margin-top: 250px;
-  margin-bottom: 200px;
-}
 input[type="text"],
 select,
 textarea {
   width: 100%;
-  padding: 20px;
+  padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
@@ -215,30 +208,9 @@ input[type="submit"]:hover {
 .submit {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
-
-label {
-  margin-top: 30px;
-  margin-bottom: 10px;
-  font-size: 22px;
-}
-
-.submit-button {
-  width: 20%;
-  height: 70px;
-  display: flex;
-  font-size: 20px;
-  padding: 100px;
-  justify-content: center;
-}
-
-.submit-bttn {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 40px;
-}
-
 /*========Copy========*/
 
 .copyright {
