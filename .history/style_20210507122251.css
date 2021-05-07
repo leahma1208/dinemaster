@@ -128,30 +128,12 @@ a:hover {
 font-size: 40px;
 }
 /* ======ABOUTUS============= */
-
-.members{
+.img1{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-}
-
-
-.img1{
-  display: flex;
-  flex-direction: row;
   padding: 10px;
-}
-
-.img2{
-  display: flex;
-  flex-direction: row;
-  padding: 10px;
-}
-
-.names{
-  display: flex;
-  justify-content: center;
+  flex-direction: column
 }
 
 

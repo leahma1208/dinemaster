@@ -1,4 +1,6 @@
-body ,
+body {
+  @media only screen and (max-width: 600px)
+},
 html {
   margin: 0;
 }
@@ -127,35 +129,6 @@ a:hover {
 .dine{
 font-size: 40px;
 }
-/* ======ABOUTUS============= */
-
-.members{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-
-.img1{
-  display: flex;
-  flex-direction: row;
-  padding: 10px;
-}
-
-.img2{
-  display: flex;
-  flex-direction: row;
-  padding: 10px;
-}
-
-.names{
-  display: flex;
-  justify-content: center;
-}
-
-
-
 
 /*==========Contact==============*/
 
@@ -212,3 +185,5 @@ input[type=submit]:hover {
   justify-content: center;
   font-weight:200px;
 }
+
+
